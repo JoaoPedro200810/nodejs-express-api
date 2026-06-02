@@ -1,68 +1,68 @@
-# Podcast Manager
+<div align="center">
 
-## Descrição
+# 🚀 Node.js Express API
 
-O Podcast Manager é uma aplicação inspirada no estilo da Netflix, que permite centralizar diferentes episódios de podcasts separados por categoria. Este projeto visa facilitar o acesso e a organização de episódios de podcasts em formato de vídeo, proporcionando uma experiência de navegação intuitiva e agradável para os usuários.
+<p align="center">
+Projeto desenvolvido durante o desafio da DIO utilizando <b>Node.js</b> e <b>Express</b> para criação de uma API backend.
+</p>
 
-## Funcionalidades
+</div>
 
-- **Listar os episódios de podcasts em sessões de categorias:** Os episódios são organizados em categorias como saúde, bodybuilder, mentalidade e humor, permitindo aos usuários explorar facilmente os conteúdos disponíveis.
-- **Filtrar episódios por nome de podcast:** Os usuários podem realizar buscas específicas por nome de podcast, facilitando o acesso aos episódios desejados.
+---
 
-## Implementação
+# 📌 Descrição
 
-### Listar os episódios de podcasts em sessões de categorias
+Este projeto foi desenvolvido como parte do desafio prático da DIO, com o objetivo de aplicar conceitos de desenvolvimento backend utilizando Node.js e Express, criando rotas e organizando uma API funcional.
 
-- **Endpoint:** `GET /list`
-- **Descrição:** Retorna uma lista de episódios de podcasts organizados por categorias.
-- **Exemplo de resposta:**
+# 🛠️ Tecnologias Utilizadas
 
-```json
-[
-  {
-    "podcastName": "flow",
-    "episode": "CBUM - Flow #319",
-    "videoId": "pQSuQmUfS30",
-    "cover": "https://i.ytimg.com/vi/pQSuQmUfS30/maxresdefault.jpg",
-    "link": "https://www.youtube.com/watch?v=pQSuQmUfS30",
-    "categories": ["saúde", "esporte", "bodybuilder"]
-  },
-  {
-    "podcastName": "flow",
-    "episode": "RUBENS BARRICHELLO - Flow #339",
-    "videoId": "4KDGTdiOV4I",
-    "cover": "https://i.ytimg.com/vi/4KDGTdiOV4I/maxresdefault.jpg",
-    "link": "https://www.youtube.com/watch?v=4KDGTdiOV4I",
-    "categories": ["esporte", "corrida"]
-  }
-]
+* Node.js
+* Express.js
+* JavaScript
+* Git e GitHub
+
+# 📂 Estrutura do Projeto
+
+* `src/` → arquivos principais da aplicação
+* `routes/` → rotas da API
+* `controllers/` → lógica das requisições
+* `package.json` → dependências e scripts
+* `README.md` → documentação do projeto
+
+# ⚡ Scripts
+
+* `npm install` → instala dependências
+* `npm run dev` → executa em desenvolvimento
+* `npm start` → inicia a aplicação
+
+# 👨‍💻 Como Executar
+
+```bash
+# Clonar repositório
+git clone LINK_DO_SEU_REPOSITORIO
+
+# Entrar na pasta do projeto
+cd nome-do-projeto
+
+# Instalar dependências
+npm install
+
+# Executar projeto
+npm run dev
 ```
 
-### Filtrar episódios por nome de podcast
+# 🔗 Links Úteis
 
-- **Endpoint:** `GET /episode?podcastName={nome}`
-- **Descrição:** Retorna uma lista de episódios de podcast com base no nome do podcast fornecido.
-- **Exemplo de requisição:** `GET /episode?podcastName=flow`
+Projeto base do expert:
+https://github.com/digitalinnovationone/nodejs-express-api
 
-## Tecnologias Utilizadas
+Meu repositório:
+COLE_SEU_LINK_AQUI
 
-- **[TypeScript](https://www.typescriptlang.org/):** Linguagem de programação utilizada para o desenvolvimento do projeto.
-- **[Tsup](https://github.com/egoist/tsup):** Ferramenta de construção e empacotamento para projetos TypeScript.
-- **[Tsx](https://github.com/egoist/tsx):** Compilador TypeScript que suporta a construção de projetos.
-- **[Node.js](https://nodejs.org/):** Ambiente de execução JavaScript que permite executar código JavaScript do lado do servidor.
-- **[@types/node](https://www.npmjs.com/package/@types/node):** Pacote de definições de tipos para Node.js para auxiliar no desenvolvimento com TypeScript.
+# 🎯 Aprendizados
 
-## Como Utilizar
+Durante o desenvolvimento deste projeto, foram praticados conceitos de criação de APIs com Express, organização de rotas, execução de servidor e versionamento com Git e GitHub.
 
-1. Clone este repositório.
-2. Instale as dependências usando `npm install`.
-3. Inicie o servidor executando `start:dev`.
-4. Acesse os endpoints fornecidos para listar os episódios de podcasts ou filtrá-los por nome de podcast.
+# 👤 Autor
 
-## Contribuição
-
-Contribuições são bem-vindas! Sinta-se à vontade para abrir problemas ou enviar solicitações de recebimento (pull requests) para melhorar este projeto.
-
-## Licença
-
-Este projeto está licenciado sob a [MIT License](LICENSE).
+Projeto desenvolvido para desafio da DIO.
